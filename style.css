@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: whitesmoke;
+    margin: 0px;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: white;
+        background-color: #2B2A33;
+    }
+}
+
+#container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    width: 80vw;
+    white-space: nowrap;
+}
+
+#time {
+    text-align: center;
+    font-size: 500%;
+    font-size: 15vw;
+    font-weight: bold;
+    user-select: none;
+}
