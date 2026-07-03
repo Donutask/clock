@@ -62,7 +62,7 @@ function ClockURL(date) {
     let moduloHours = hour % 12;
     let hourString = (hour > 9) ? moduloHours.toString() : "0" + moduloHours.toString();
 
-    let url = "/clocks/" + hourString.toString() + minuteString.toString() + ".svg"
+    let url = "./clocks/" + hourString.toString() + minuteString.toString() + ".svg"
     return url;
 }
 
